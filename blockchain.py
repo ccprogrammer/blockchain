@@ -485,5 +485,11 @@ def full_nodes():
 
 if __name__ == "__main__":
     # Accept port from CLI argument to run multiple peers:
-    # Example: python blockchain.py 5001 (5000 not working on windows)
+    # Example: 
+    # 
+    # (5000 not working on windows)
+    # python blockchain.py 5001 
+    # or
+    # python3 blockchain.py 5001 (use python3 for mac)
+    # 
     app.run(host="0.0.0.0", port=int(sys.argv[1]))
